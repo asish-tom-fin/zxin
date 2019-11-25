@@ -48,7 +48,7 @@ import javax.swing.text.JTextComponent;
  * @author Sean Owen
  */
 public final class GUIRunner extends JFrame {
-
+  private static final long serialVersionUID = 77327737;
   private final JLabel imageLabel;
   private final JTextComponent textArea;
 

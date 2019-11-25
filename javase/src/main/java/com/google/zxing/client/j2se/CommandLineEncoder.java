@@ -16,11 +16,10 @@
 
 package com.google.zxing.client.j2se;
 
+import com.beust.jcommander.JCommander;
 import com.google.zxing.EncodeHintType;
 import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.common.BitMatrix;
-
-import com.beust.jcommander.JCommander;
 
 import java.nio.file.Paths;
 import java.util.EnumMap;
@@ -29,7 +28,7 @@ import java.util.Map;
 
 /**
  * Command line utility for encoding barcodes.
- * 
+ *
  * @author Sean Owen
  */
 public final class CommandLineEncoder {
